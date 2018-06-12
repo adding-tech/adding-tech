@@ -409,8 +409,8 @@ class fs_updater
                     $this->del_tree('view/');
 
                     /// ahora hay que copiar todos los archivos de facturascripts-master a . y borrar
-                    $this->recurse_copy('facturascripts_2015-master/', '.');
-                    $this->del_tree('facturascripts_2015-master/');
+                    $this->recurse_copy('adding-tech-master/', '.');
+                    $this->del_tree('adding-tech-master/');
 
                     $this->core_log->new_message('Actualizado correctamente.');
                     $this->actualizacion_correcta();
