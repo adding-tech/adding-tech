@@ -22,8 +22,10 @@ require_once 'base/fs_cache.php';
 require_once 'base/fs_db2.php';
 require_once 'base/fs_default_items.php';
 require_once 'base/fs_model.php';
+require_once 'base/fs_extended_model.php';
 require_once 'base/fs_login.php';
 require_once 'base/fs_divisa_tools.php';
+
 
 require_all_models();
 
